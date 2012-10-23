@@ -1,4 +1,7 @@
 class PublicController < ApplicationController
+  def construction
+  end
+
   def home
   end
 

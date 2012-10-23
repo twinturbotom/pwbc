@@ -1,6 +1,6 @@
 Pwbc::Application.routes.draw do
 
-  root :to => "public#home"
+  root :to => "public#construction"
 
   get "public/construction"
 
