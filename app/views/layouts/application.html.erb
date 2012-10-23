@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pwbc</title>
+  <title>PWBC</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="wrap">
+
+	<div id="stripeUpper"></div>
+
+	<div id="main">
+		
+		<%= render 'navigation' %>
+
+		<div id="header" >
+			<div style="float:left; width: 25%;">
+				<%= image_tag("mainLayout/pwbc-logo.png", :width => '100%') %>
+			</div>
+
+			<div id="tagBlock">
+				<div id="tagLineBlock"><h3 class="tagLine">The world is yours</h3></div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+
+
+
+		
+		<%= yield %>
+	</div>
+
+</div>
+
+<div id="footer">
+
+</div>
+
+
+
 
 </body>
 </html>

@@ -1,4 +1,18 @@
 Pwbc::Application.routes.draw do
+
+  root :to => "public#home"
+
+  get "public/construction"
+
+  get "public/home"
+  match "/home" => "public#home"
+
+  get "public/about"
+  match "/about" => "public#about"
+
+  get "public/contact"
+  match "/contact" => "public#contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
