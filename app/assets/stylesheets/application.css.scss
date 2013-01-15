@@ -1,77 +1,13 @@
  @import "bootstrap";
  @import "bootstrap-responsive";
 
- * {margin:0;padding:0;} 
-html, body {height: 100%;}
-body{
-	font-family:"Helvetica Neue";
-	margin-top: 80px;
-	}
-p, h1, h2, h3, h4, h5, h6 {
-	font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;
-	font-weight: 200;
-}
-#wrap {min-height: 100%;}
-
-#main {
-	
-	min-width: 780px;
-	max-width: 1260px;
-	width:80%;
-	padding-bottom: 60px;
-	margin:auto;
-	margin-top:-20px;
-
-	}
-
-/* must be same height as the footer */
-#stripeUpper{
-	height:60px;
-	background:url(../assets/mainLayout/grad-bg.gif);
-	width:100%;
-
-}
-#header{
-	border-bottom:2px solid #808080;
-	clear:both; 
-	margin-bottom: 10px;
-	height: 100%;
-
-
+body {
+	padding-top: 80px;
 }
 
-#footer {position: relative;
-	margin-top: -60px; /* negative value of footer height */
-	height: 60px;
-	clear:both;
-	background:url(../assets/mainLayout/grad-bg.gif);
-} 
-#tagBlock{
-	text-align: center;
+.intro-more{
+	display: none;
 }
-#tagBlock:before{
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-
-}
-.tagLineBlock{
-  display: inline-block;
-  vertical-align: middle;
-
-}
-.tagLine{
-	color:  #999999;
-	margin:auto;
-
-
-}
-/*Opera Fix*/
-body:before {/* thanks to Maleika (Kohoutec)*/
-content:"";
-height:100%;
-float:left;
-width:0;
-margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+#home .intro-more{
+	display: inline;
 }
