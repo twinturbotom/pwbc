@@ -4,7 +4,11 @@
 }
  @import "bootstrap-responsive";
 
-
+footer{
+  position: relative;
+  clear:both;
+  margin-top:20px;
+} 
 
 .intro-more{
 	display: none;
