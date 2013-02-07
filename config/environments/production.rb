@@ -17,7 +17,7 @@ Pwbc::Application.configure do
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
 
-  config.assets.iitialize_on_precompile=false
+  config.assets.initialize_on_precompile=false
 
   # Generate digests for assets URLs
   config.assets.digest = true
