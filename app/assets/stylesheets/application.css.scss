@@ -15,3 +15,17 @@
 #home .full-desc{
 	display:none;
 }
+.pwbc_intro_image{
+	background-image: url('pwbc_logo_traces.png');
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+.intro-desc{
+	display: none;
+}
+
+#home .intro-desc{
+	display: inline;
+}
+
+
